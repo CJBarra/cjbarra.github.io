@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon-8.ico" type="image/x-icon" />
+    <title>CB | Web Developer</title>
+  </head>
+  <body>
+    <!-- NAV -------------------
+    ---------------------------- -->
+    <header>
+      <nav class="nav-reg" id="nav-light">
+        <div class="container">
+          <div class="row">
+            <div class="brand-name">
+              <a href="#1" class="logo"><img src="/img/logo-svg.svg"/></a>
+            </div>
+
+            <div class="nav-toggler">
+              <i class="fa fa-bars"></i>
+            </div>
+            <div class="navbar">
+              <ul>
+                <li><a href="#1">Home</a></li>
+                <li><a href="#2">About</a></li>
+                <li><a href="#3">Services</a></li>
+                <li><a href="#4">Contact</a></li>
+              </ul>
+            </div>
+            <!-- nav link end -->
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end  -->
+      </nav>
+    </header>
+
+    <!-- HOME START ------------
+    ---------------------------- -->
+    <section
+      class="home"
+      data-overlay-dark="5"
+      data-background="img/background/2.jpg"
+      id="1"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="home-content full-width text-center mt-30">
+            <div class="block" id="swapStart">
+              <h4>Welcome</h4>
+              <h1>I'm Christian J. Barratt</h1>
+              <p>
+                <span>
+                  Web Developer
+                </span>
+              </p>
+              <div class="cv-btn">
+                <a href="https://github.com/CJBarra">
+                  View Projects <i class="fa fa-github-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT START -----------
+    ---------------------------- -->
+    <section class="about" id="2">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <div class="hero-img">
+              <img src="/img/background/20200217_opt.jpg" alt="hero img" />
+            </div>
+          </div>
+          <div class="col-7">
+            <div class="about-content">
+              <h5 class="about-title">About Me</h5>
+              <span class="sub-title">Web Developer</span>
+              <p>
+                <strong>I'm</strong> a self-motivated Web Developer with proficiency in building responsive, and user-friendly experience. All the while keeping it clean.
+              </p>
+
+              <a href="" class="btn btn-light mt-30">
+                <span>Download CV</span>
+              </a>
+              <a href="#4" class="btn btn-light mt-30"><span>Hire Me</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES START --------
+    ---------------------------- -->
+    <section class="services" id="3">
+      <div class="container">
+        <div class="row">
+          <div class="services-header text-center col-12">
+            <h5>My Services</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="services-content">
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-lightbulb-o"></i>
+              </div>
+              <h5>Creative Design</h5>
+              <p>
+                Creating Easy and Intuitive End User UI / UX
+              </p>
+            </div>
+            <!--BOX END-->
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-laptop"></i>
+              </div>
+              <h5>Responsive</h5>
+              <p>
+                Focusing on the needs of the hardware, no matter the size.
+              </p>
+            </div>
+            <!--BOX END-->
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-terminal"></i>
+              </div>
+              <h5>Efficiency</h5>
+              <p>
+                Keep it clean, keep it simple, no need for chicken scratch.
+              </p>
+            </div>
+            <!--BOX END-->
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-database"></i>
+              </div>
+              <h5>Database Structures</h5>
+              <p>
+                Analyse, Identify, Organize and Adapt. Knocking out the redundant, keeping your integrity intact.
+              </p>
+            </div>
+            <!--BOX END-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT START -------
+      ---------------------------- -->
+    <section class="contact" id="4">
+      <div class="container">
+        <div class="row">
+          <div class="contact-header text-center col-12">
+            <h5>Contact</h5>
+            <h6>Get in touch with me</h6>
+          </div>
+        </div>
+        <form class="form" method="POST" action="contact.php">
+          <div class="row">
+            <div class="col-med-6">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="sender"
+                  id="form_name"
+                  placeholder="Name"
+                  required="required"
+                />
+              </div>
+            </div>
+            <div class="col-med-6">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="senderEmail"
+                  id="form_email"
+                  placeholder="Email"
+                  required="required"
+                />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="form_subject"
+                  placeholder="Subject"
+                />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  id="form_message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                  required="required"
+                ></textarea>
+              </div>
+            </div>
+            <div class="col-12 text-center">
+              <button type="submit"><span>Send Message</span></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER START ------------
+      ---------------------------- -->
+    <footer class="text-center">
+      <div class="container">
+        <img class="logo" src="/img/logo-svg.svg" />
+        <div class="social-block">
+          <a href="https://github.com/CJBarra" class="icon">
+            <i class="fa fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/christian-james-barratt-3594376a/"
+            class="icon"
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </div>
+        <p>&copy; 2020 Christian J. Barratt. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="scripts/js/scripts.js"></script>
+    <script src="scripts/php/contact.php"></script>
+  </body>
+</html>
